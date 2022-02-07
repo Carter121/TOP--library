@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+}
+
+.addBook {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 1rem;
+}
+
+.addBook button {
+  border: none;
+  margin-top: 0.4rem;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.addBook button:hover {
+  background-color: gray;
+}
+
+.bookContainer {
+  background-color: #1b1b1b;
+  margin-top: 0.5rem;
+  width: 10rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  color: white;
+}
+
+.bookContainer button {
+  border: none;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.bookContainer button:hover {
+  background-color: gray;
+}
+/*# sourceMappingURL=styles.css.map */
